@@ -121,6 +121,12 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="consultarSalaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
+  </data>
+  <data name="consultarSalaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Consultar Sala</value>
+  </data>
   <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 26</value>
   </data>
@@ -130,15 +136,33 @@
   <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="consultarSalaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
-  </data>
-  <data name="consultarSalaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Consultar Sala</value>
-  </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>172, 17</value>
   </metadata>
+  <data name="agregarAsientoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="agregarAsientoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Agregar Asiento</value>
+  </data>
+  <data name="verAsientosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="verAsientosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ver Asientos</value>
+  </data>
+  <data name="venderAsientoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="venderAsientoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vender Asiento</value>
+  </data>
+  <data name="salaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="salaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sala</value>
+  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -163,30 +187,6 @@
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="salaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 20</value>
-  </data>
-  <data name="salaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sala</value>
-  </data>
-  <data name="agregarAsientoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="agregarAsientoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Agregar Asiento</value>
-  </data>
-  <data name="verAsientosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="verAsientosToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ver Asientos</value>
-  </data>
-  <data name="venderAsientoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="venderAsientoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Vender Asiento</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
