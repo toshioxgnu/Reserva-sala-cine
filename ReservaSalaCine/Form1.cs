@@ -12,9 +12,12 @@ namespace ReservaSalaCine
 {
     public partial class Form1 : Form
     {
+        SalaCine[] CineMelocoton = new SalaCine[5];
+
         public Form1()
         {
             InitializeComponent();
         }
+
     }
 }
