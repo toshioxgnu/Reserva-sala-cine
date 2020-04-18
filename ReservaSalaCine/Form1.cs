@@ -20,38 +20,6 @@ namespace ReservaSalaCine
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         public bool validaRut(string rut)
         {
             int[] constantesValidacion = { 3, 2, 7, 6, 5, 4, 3, 2 };
