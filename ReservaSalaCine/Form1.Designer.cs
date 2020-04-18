@@ -68,7 +68,6 @@
             this.venderAsientoToolStripMenuItem});
             this.salaToolStripMenuItem.Name = "salaToolStripMenuItem";
             resources.ApplyResources(this.salaToolStripMenuItem, "salaToolStripMenuItem");
-            this.salaToolStripMenuItem.Click += new System.EventHandler(this.salaToolStripMenuItem_Click);
             // 
             // agregarAsientoToolStripMenuItem
             // 
