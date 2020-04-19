@@ -121,6 +121,12 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="consultarSalaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
+  </data>
+  <data name="consultarSalaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Consultar Sala</value>
+  </data>
   <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 26</value>
   </data>
@@ -130,50 +136,9 @@
   <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="consultarSalaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
-  </data>
-  <data name="consultarSalaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Consultar Sala</value>
-  </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>172, 17</value>
   </metadata>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 2, 0, 2</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1043, 24</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>54</value>
-  </data>
-  <data name="salaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 20</value>
-  </data>
-  <data name="salaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sala</value>
-  </data>
   <data name="sala1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 22</value>
   </data>
@@ -204,8 +169,130 @@
   <data name="sala5ToolStripMenuItem.Text" xml:space="preserve">
     <value>Sala 5</value>
   </data>
+  <data name="salaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="salaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sala</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 0, 2</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1043, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="btn_elegir.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_elegir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 315</value>
+  </data>
+  <data name="btn_elegir.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btn_elegir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 48</value>
+  </data>
+  <data name="btn_elegir.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="btn_elegir.Text" xml:space="preserve">
+    <value>Seleccione Asientos</value>
+  </data>
+  <data name="&gt;&gt;btn_elegir.Name" xml:space="preserve">
+    <value>btn_elegir</value>
+  </data>
+  <data name="&gt;&gt;btn_elegir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_elegir.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_elegir.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 67</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>PANTALLA</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pelicula.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pelicula.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 35</value>
+  </data>
+  <data name="pelicula.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="pelicula.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;pelicula.Name" xml:space="preserve">
+    <value>pelicula</value>
+  </data>
+  <data name="&gt;&gt;pelicula.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pelicula.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pelicula.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="checkBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>297, 117</value>
@@ -366,71 +453,71 @@
   <data name="&gt;&gt;checkBox5.ZOrder" xml:space="preserve">
     <value>49</value>
   </data>
-  <data name="checkBox6.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>740, 117</value>
+  <data name="checkBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>617, 117</value>
   </data>
-  <data name="checkBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 17</value>
-  </data>
-  <data name="checkBox6.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="checkBox6.Text" xml:space="preserve">
-    <value>A10</value>
-  </data>
-  <data name="&gt;&gt;checkBox6.Name" xml:space="preserve">
-    <value>checkBox6</value>
-  </data>
-  <data name="&gt;&gt;checkBox6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox6.ZOrder" xml:space="preserve">
-    <value>44</value>
-  </data>
-  <data name="checkBox7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>700, 117</value>
-  </data>
-  <data name="checkBox7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="checkBox7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox10.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
   </data>
-  <data name="checkBox7.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="checkBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="checkBox7.Text" xml:space="preserve">
-    <value>A9</value>
+  <data name="checkBox10.Text" xml:space="preserve">
+    <value>A7</value>
   </data>
-  <data name="&gt;&gt;checkBox7.Name" xml:space="preserve">
-    <value>checkBox7</value>
+  <data name="&gt;&gt;checkBox10.Name" xml:space="preserve">
+    <value>checkBox10</value>
   </data>
-  <data name="&gt;&gt;checkBox7.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox10.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox7.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox10.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox7.ZOrder" xml:space="preserve">
-    <value>45</value>
+  <data name="&gt;&gt;checkBox10.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="checkBox9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 117</value>
+  </data>
+  <data name="checkBox9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="checkBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="checkBox9.Text" xml:space="preserve">
+    <value>A6</value>
+  </data>
+  <data name="&gt;&gt;checkBox9.Name" xml:space="preserve">
+    <value>checkBox9</value>
+  </data>
+  <data name="&gt;&gt;checkBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox9.ZOrder" xml:space="preserve">
+    <value>47</value>
   </data>
   <data name="checkBox8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -465,203 +552,71 @@
   <data name="&gt;&gt;checkBox8.ZOrder" xml:space="preserve">
     <value>46</value>
   </data>
-  <data name="checkBox9.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>621, 117</value>
+  <data name="checkBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 117</value>
   </data>
-  <data name="checkBox9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox9.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox7.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
   </data>
-  <data name="checkBox9.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="checkBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="checkBox9.Text" xml:space="preserve">
-    <value>A7</value>
+  <data name="checkBox7.Text" xml:space="preserve">
+    <value>A9</value>
   </data>
-  <data name="&gt;&gt;checkBox9.Name" xml:space="preserve">
-    <value>checkBox9</value>
+  <data name="&gt;&gt;checkBox7.Name" xml:space="preserve">
+    <value>checkBox7</value>
   </data>
-  <data name="&gt;&gt;checkBox9.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox7.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox9.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox7.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox9.ZOrder" xml:space="preserve">
-    <value>47</value>
+  <data name="&gt;&gt;checkBox7.ZOrder" xml:space="preserve">
+    <value>45</value>
   </data>
-  <data name="checkBox10.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>574, 117</value>
+  <data name="checkBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>740, 117</value>
   </data>
-  <data name="checkBox10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
+  <data name="checkBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
   </data>
-  <data name="checkBox10.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="checkBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="checkBox10.Text" xml:space="preserve">
-    <value>A6</value>
+  <data name="checkBox6.Text" xml:space="preserve">
+    <value>A10</value>
   </data>
-  <data name="&gt;&gt;checkBox10.Name" xml:space="preserve">
-    <value>checkBox10</value>
+  <data name="&gt;&gt;checkBox6.Name" xml:space="preserve">
+    <value>checkBox6</value>
   </data>
-  <data name="&gt;&gt;checkBox10.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox6.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox10.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox6.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox10.ZOrder" xml:space="preserve">
-    <value>48</value>
-  </data>
-  <data name="checkBox11.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>463, 154</value>
-  </data>
-  <data name="checkBox11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="checkBox11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
-  </data>
-  <data name="checkBox11.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="checkBox11.Text" xml:space="preserve">
-    <value>B5</value>
-  </data>
-  <data name="&gt;&gt;checkBox11.Name" xml:space="preserve">
-    <value>checkBox11</value>
-  </data>
-  <data name="&gt;&gt;checkBox11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox11.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox11.ZOrder" xml:space="preserve">
-    <value>39</value>
-  </data>
-  <data name="checkBox12.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 154</value>
-  </data>
-  <data name="checkBox12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="checkBox12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
-  </data>
-  <data name="checkBox12.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="checkBox12.Text" xml:space="preserve">
-    <value>B4</value>
-  </data>
-  <data name="&gt;&gt;checkBox12.Name" xml:space="preserve">
-    <value>checkBox12</value>
-  </data>
-  <data name="&gt;&gt;checkBox12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox12.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox12.ZOrder" xml:space="preserve">
-    <value>40</value>
-  </data>
-  <data name="checkBox13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>384, 154</value>
-  </data>
-  <data name="checkBox13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="checkBox13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
-  </data>
-  <data name="checkBox13.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="checkBox13.Text" xml:space="preserve">
-    <value>B3</value>
-  </data>
-  <data name="&gt;&gt;checkBox13.Name" xml:space="preserve">
-    <value>checkBox13</value>
-  </data>
-  <data name="&gt;&gt;checkBox13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox13.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox13.ZOrder" xml:space="preserve">
-    <value>41</value>
-  </data>
-  <data name="checkBox14.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>344, 154</value>
-  </data>
-  <data name="checkBox14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="checkBox14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
-  </data>
-  <data name="checkBox14.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="checkBox14.Text" xml:space="preserve">
-    <value>B2</value>
-  </data>
-  <data name="&gt;&gt;checkBox14.Name" xml:space="preserve">
-    <value>checkBox14</value>
-  </data>
-  <data name="&gt;&gt;checkBox14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox14.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox14.ZOrder" xml:space="preserve">
-    <value>42</value>
+  <data name="&gt;&gt;checkBox6.ZOrder" xml:space="preserve">
+    <value>44</value>
   </data>
   <data name="checkBox15.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -696,137 +651,137 @@
   <data name="&gt;&gt;checkBox15.ZOrder" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="checkBox16.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>740, 154</value>
+  <data name="checkBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 154</value>
   </data>
-  <data name="checkBox16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 17</value>
-  </data>
-  <data name="checkBox16.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="checkBox16.Text" xml:space="preserve">
-    <value>B10</value>
-  </data>
-  <data name="&gt;&gt;checkBox16.Name" xml:space="preserve">
-    <value>checkBox16</value>
-  </data>
-  <data name="&gt;&gt;checkBox16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox16.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox16.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <data name="checkBox17.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>700, 154</value>
-  </data>
-  <data name="checkBox17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="checkBox17.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox14.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
   </data>
-  <data name="checkBox17.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="checkBox14.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
-  <data name="checkBox17.Text" xml:space="preserve">
-    <value>B9</value>
+  <data name="checkBox14.Text" xml:space="preserve">
+    <value>B2</value>
   </data>
-  <data name="&gt;&gt;checkBox17.Name" xml:space="preserve">
-    <value>checkBox17</value>
+  <data name="&gt;&gt;checkBox14.Name" xml:space="preserve">
+    <value>checkBox14</value>
   </data>
-  <data name="&gt;&gt;checkBox17.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox14.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox17.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox14.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox17.ZOrder" xml:space="preserve">
-    <value>35</value>
+  <data name="&gt;&gt;checkBox14.ZOrder" xml:space="preserve">
+    <value>42</value>
   </data>
-  <data name="checkBox18.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>660, 154</value>
+  <data name="checkBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 154</value>
   </data>
-  <data name="checkBox18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox18.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox13.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
   </data>
-  <data name="checkBox18.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+  <data name="checkBox13.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
-  <data name="checkBox18.Text" xml:space="preserve">
-    <value>B8</value>
+  <data name="checkBox13.Text" xml:space="preserve">
+    <value>B3</value>
   </data>
-  <data name="&gt;&gt;checkBox18.Name" xml:space="preserve">
-    <value>checkBox18</value>
+  <data name="&gt;&gt;checkBox13.Name" xml:space="preserve">
+    <value>checkBox13</value>
   </data>
-  <data name="&gt;&gt;checkBox18.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox13.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox18.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox13.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox18.ZOrder" xml:space="preserve">
-    <value>36</value>
+  <data name="&gt;&gt;checkBox13.ZOrder" xml:space="preserve">
+    <value>41</value>
   </data>
-  <data name="checkBox19.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>621, 154</value>
+  <data name="checkBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 154</value>
   </data>
-  <data name="checkBox19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox19.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox12.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
   </data>
-  <data name="checkBox19.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="checkBox12.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
-  <data name="checkBox19.Text" xml:space="preserve">
-    <value>B7</value>
+  <data name="checkBox12.Text" xml:space="preserve">
+    <value>B4</value>
   </data>
-  <data name="&gt;&gt;checkBox19.Name" xml:space="preserve">
-    <value>checkBox19</value>
+  <data name="&gt;&gt;checkBox12.Name" xml:space="preserve">
+    <value>checkBox12</value>
   </data>
-  <data name="&gt;&gt;checkBox19.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox12.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox19.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox12.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox19.ZOrder" xml:space="preserve">
-    <value>37</value>
+  <data name="&gt;&gt;checkBox12.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="checkBox11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 154</value>
+  </data>
+  <data name="checkBox11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="checkBox11.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="checkBox11.Text" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="&gt;&gt;checkBox11.Name" xml:space="preserve">
+    <value>checkBox11</value>
+  </data>
+  <data name="&gt;&gt;checkBox11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox11.ZOrder" xml:space="preserve">
+    <value>39</value>
   </data>
   <data name="checkBox20.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -861,137 +816,137 @@
   <data name="&gt;&gt;checkBox20.ZOrder" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="checkBox21.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>463, 192</value>
+  <data name="checkBox19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 154</value>
   </data>
-  <data name="checkBox21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox21.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox19.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
   </data>
-  <data name="checkBox21.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
+  <data name="checkBox19.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
-  <data name="checkBox21.Text" xml:space="preserve">
-    <value>C5</value>
+  <data name="checkBox19.Text" xml:space="preserve">
+    <value>B7</value>
   </data>
-  <data name="&gt;&gt;checkBox21.Name" xml:space="preserve">
-    <value>checkBox21</value>
+  <data name="&gt;&gt;checkBox19.Name" xml:space="preserve">
+    <value>checkBox19</value>
   </data>
-  <data name="&gt;&gt;checkBox21.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox19.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox21.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox19.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox21.ZOrder" xml:space="preserve">
-    <value>29</value>
+  <data name="&gt;&gt;checkBox19.ZOrder" xml:space="preserve">
+    <value>37</value>
   </data>
-  <data name="checkBox22.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox18.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 192</value>
+  <data name="checkBox18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 154</value>
   </data>
-  <data name="checkBox22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox22.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox18.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
   </data>
-  <data name="checkBox22.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
+  <data name="checkBox18.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
   </data>
-  <data name="checkBox22.Text" xml:space="preserve">
-    <value>C4</value>
+  <data name="checkBox18.Text" xml:space="preserve">
+    <value>B8</value>
   </data>
-  <data name="&gt;&gt;checkBox22.Name" xml:space="preserve">
-    <value>checkBox22</value>
+  <data name="&gt;&gt;checkBox18.Name" xml:space="preserve">
+    <value>checkBox18</value>
   </data>
-  <data name="&gt;&gt;checkBox22.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox18.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox22.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox18.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox22.ZOrder" xml:space="preserve">
-    <value>30</value>
+  <data name="&gt;&gt;checkBox18.ZOrder" xml:space="preserve">
+    <value>36</value>
   </data>
-  <data name="checkBox23.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox17.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>384, 192</value>
+  <data name="checkBox17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 154</value>
   </data>
-  <data name="checkBox23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox23.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox17.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
   </data>
-  <data name="checkBox23.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
+  <data name="checkBox17.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
   </data>
-  <data name="checkBox23.Text" xml:space="preserve">
-    <value>C3</value>
+  <data name="checkBox17.Text" xml:space="preserve">
+    <value>B9</value>
   </data>
-  <data name="&gt;&gt;checkBox23.Name" xml:space="preserve">
-    <value>checkBox23</value>
+  <data name="&gt;&gt;checkBox17.Name" xml:space="preserve">
+    <value>checkBox17</value>
   </data>
-  <data name="&gt;&gt;checkBox23.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox17.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox23.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox17.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox23.ZOrder" xml:space="preserve">
-    <value>31</value>
+  <data name="&gt;&gt;checkBox17.ZOrder" xml:space="preserve">
+    <value>35</value>
   </data>
-  <data name="checkBox24.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>344, 192</value>
+  <data name="checkBox16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>740, 154</value>
   </data>
-  <data name="checkBox24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
+  <data name="checkBox16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
   </data>
-  <data name="checkBox24.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
+  <data name="checkBox16.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
   </data>
-  <data name="checkBox24.Text" xml:space="preserve">
-    <value>C2</value>
+  <data name="checkBox16.Text" xml:space="preserve">
+    <value>B10</value>
   </data>
-  <data name="&gt;&gt;checkBox24.Name" xml:space="preserve">
-    <value>checkBox24</value>
+  <data name="&gt;&gt;checkBox16.Name" xml:space="preserve">
+    <value>checkBox16</value>
   </data>
-  <data name="&gt;&gt;checkBox24.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox16.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox24.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox16.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox24.ZOrder" xml:space="preserve">
-    <value>32</value>
+  <data name="&gt;&gt;checkBox16.ZOrder" xml:space="preserve">
+    <value>34</value>
   </data>
   <data name="checkBox25.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1026,137 +981,137 @@
   <data name="&gt;&gt;checkBox25.ZOrder" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="checkBox26.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox24.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox26.Location" type="System.Drawing.Point, System.Drawing">
-    <value>740, 192</value>
+  <data name="checkBox24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 192</value>
   </data>
-  <data name="checkBox26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox26.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 17</value>
+  <data name="checkBox24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
   </data>
-  <data name="checkBox26.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
+  <data name="checkBox24.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
   </data>
-  <data name="checkBox26.Text" xml:space="preserve">
-    <value>C10</value>
+  <data name="checkBox24.Text" xml:space="preserve">
+    <value>C2</value>
   </data>
-  <data name="&gt;&gt;checkBox26.Name" xml:space="preserve">
-    <value>checkBox26</value>
+  <data name="&gt;&gt;checkBox24.Name" xml:space="preserve">
+    <value>checkBox24</value>
   </data>
-  <data name="&gt;&gt;checkBox26.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox24.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox26.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox24.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox26.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;checkBox24.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="checkBox23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 192</value>
+  </data>
+  <data name="checkBox23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkBox23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="checkBox23.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
   </data>
-  <data name="checkBox27.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="checkBox23.Text" xml:space="preserve">
+    <value>C3</value>
   </data>
-  <data name="checkBox27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;checkBox23.Name" xml:space="preserve">
+    <value>checkBox23</value>
   </data>
-  <data name="checkBox27.Location" type="System.Drawing.Point, System.Drawing">
-    <value>700, 192</value>
-  </data>
-  <data name="checkBox27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="checkBox27.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
-  </data>
-  <data name="checkBox27.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="checkBox27.Text" xml:space="preserve">
-    <value>C9</value>
-  </data>
-  <data name="&gt;&gt;checkBox27.Name" xml:space="preserve">
-    <value>checkBox27</value>
-  </data>
-  <data name="&gt;&gt;checkBox27.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox23.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox27.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox23.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox27.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;checkBox23.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="checkBox22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 192</value>
+  </data>
+  <data name="checkBox22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkBox22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="checkBox22.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
-  <data name="checkBox28.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="checkBox22.Text" xml:space="preserve">
+    <value>C4</value>
   </data>
-  <data name="checkBox28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;checkBox22.Name" xml:space="preserve">
+    <value>checkBox22</value>
   </data>
-  <data name="checkBox28.Location" type="System.Drawing.Point, System.Drawing">
-    <value>660, 192</value>
-  </data>
-  <data name="checkBox28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="checkBox28.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
-  </data>
-  <data name="checkBox28.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="checkBox28.Text" xml:space="preserve">
-    <value>C8</value>
-  </data>
-  <data name="&gt;&gt;checkBox28.Name" xml:space="preserve">
-    <value>checkBox28</value>
-  </data>
-  <data name="&gt;&gt;checkBox28.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox22.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox28.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox22.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox28.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;checkBox22.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="checkBox21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 192</value>
+  </data>
+  <data name="checkBox21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkBox21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="checkBox21.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
   </data>
-  <data name="checkBox29.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="checkBox21.Text" xml:space="preserve">
+    <value>C5</value>
   </data>
-  <data name="checkBox29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;checkBox21.Name" xml:space="preserve">
+    <value>checkBox21</value>
   </data>
-  <data name="checkBox29.Location" type="System.Drawing.Point, System.Drawing">
-    <value>621, 192</value>
-  </data>
-  <data name="checkBox29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="checkBox29.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
-  </data>
-  <data name="checkBox29.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="checkBox29.Text" xml:space="preserve">
-    <value>C7</value>
-  </data>
-  <data name="&gt;&gt;checkBox29.Name" xml:space="preserve">
-    <value>checkBox29</value>
-  </data>
-  <data name="&gt;&gt;checkBox29.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox21.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox29.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox21.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox29.ZOrder" xml:space="preserve">
-    <value>27</value>
+  <data name="&gt;&gt;checkBox21.ZOrder" xml:space="preserve">
+    <value>29</value>
   </data>
   <data name="checkBox30.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1191,137 +1146,137 @@
   <data name="&gt;&gt;checkBox30.ZOrder" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="checkBox31.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox29.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox31.Location" type="System.Drawing.Point, System.Drawing">
-    <value>463, 228</value>
+  <data name="checkBox29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 192</value>
   </data>
-  <data name="checkBox31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox31.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 17</value>
+  <data name="checkBox29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
   </data>
-  <data name="checkBox31.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
+  <data name="checkBox29.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
   </data>
-  <data name="checkBox31.Text" xml:space="preserve">
-    <value>D5</value>
+  <data name="checkBox29.Text" xml:space="preserve">
+    <value>C7</value>
   </data>
-  <data name="&gt;&gt;checkBox31.Name" xml:space="preserve">
-    <value>checkBox31</value>
+  <data name="&gt;&gt;checkBox29.Name" xml:space="preserve">
+    <value>checkBox29</value>
   </data>
-  <data name="&gt;&gt;checkBox31.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox29.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox31.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox29.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox31.ZOrder" xml:space="preserve">
-    <value>19</value>
+  <data name="&gt;&gt;checkBox29.ZOrder" xml:space="preserve">
+    <value>27</value>
   </data>
-  <data name="checkBox32.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox28.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox32.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 228</value>
+  <data name="checkBox28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 192</value>
   </data>
-  <data name="checkBox32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox32.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 17</value>
+  <data name="checkBox28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
   </data>
-  <data name="checkBox32.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
+  <data name="checkBox28.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
   </data>
-  <data name="checkBox32.Text" xml:space="preserve">
-    <value>D4</value>
+  <data name="checkBox28.Text" xml:space="preserve">
+    <value>C8</value>
   </data>
-  <data name="&gt;&gt;checkBox32.Name" xml:space="preserve">
-    <value>checkBox32</value>
+  <data name="&gt;&gt;checkBox28.Name" xml:space="preserve">
+    <value>checkBox28</value>
   </data>
-  <data name="&gt;&gt;checkBox32.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox28.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox32.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox28.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox32.ZOrder" xml:space="preserve">
-    <value>20</value>
+  <data name="&gt;&gt;checkBox28.ZOrder" xml:space="preserve">
+    <value>26</value>
   </data>
-  <data name="checkBox33.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox27.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox33.Location" type="System.Drawing.Point, System.Drawing">
-    <value>384, 228</value>
+  <data name="checkBox27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 192</value>
   </data>
-  <data name="checkBox33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox33.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 17</value>
+  <data name="checkBox27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
   </data>
-  <data name="checkBox33.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
+  <data name="checkBox27.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
   </data>
-  <data name="checkBox33.Text" xml:space="preserve">
-    <value>D3</value>
+  <data name="checkBox27.Text" xml:space="preserve">
+    <value>C9</value>
   </data>
-  <data name="&gt;&gt;checkBox33.Name" xml:space="preserve">
-    <value>checkBox33</value>
+  <data name="&gt;&gt;checkBox27.Name" xml:space="preserve">
+    <value>checkBox27</value>
   </data>
-  <data name="&gt;&gt;checkBox33.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox27.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox33.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox27.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox33.ZOrder" xml:space="preserve">
-    <value>21</value>
+  <data name="&gt;&gt;checkBox27.ZOrder" xml:space="preserve">
+    <value>25</value>
   </data>
-  <data name="checkBox34.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox26.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox34.Location" type="System.Drawing.Point, System.Drawing">
-    <value>344, 228</value>
+  <data name="checkBox26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>740, 192</value>
   </data>
-  <data name="checkBox34.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox34.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 17</value>
+  <data name="checkBox26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
   </data>
-  <data name="checkBox34.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
+  <data name="checkBox26.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
   </data>
-  <data name="checkBox34.Text" xml:space="preserve">
-    <value>D2</value>
+  <data name="checkBox26.Text" xml:space="preserve">
+    <value>C10</value>
   </data>
-  <data name="&gt;&gt;checkBox34.Name" xml:space="preserve">
-    <value>checkBox34</value>
+  <data name="&gt;&gt;checkBox26.Name" xml:space="preserve">
+    <value>checkBox26</value>
   </data>
-  <data name="&gt;&gt;checkBox34.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox26.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox34.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox26.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox34.ZOrder" xml:space="preserve">
-    <value>22</value>
+  <data name="&gt;&gt;checkBox26.ZOrder" xml:space="preserve">
+    <value>24</value>
   </data>
   <data name="checkBox35.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1356,137 +1311,137 @@
   <data name="&gt;&gt;checkBox35.ZOrder" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="checkBox36.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox34.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox36.Location" type="System.Drawing.Point, System.Drawing">
-    <value>740, 228</value>
+  <data name="checkBox34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 228</value>
   </data>
-  <data name="checkBox36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox34.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox36.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 17</value>
-  </data>
-  <data name="checkBox36.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="checkBox36.Text" xml:space="preserve">
-    <value>D10</value>
-  </data>
-  <data name="&gt;&gt;checkBox36.Name" xml:space="preserve">
-    <value>checkBox36</value>
-  </data>
-  <data name="&gt;&gt;checkBox36.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox36.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox36.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="checkBox37.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox37.Location" type="System.Drawing.Point, System.Drawing">
-    <value>700, 228</value>
-  </data>
-  <data name="checkBox37.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="checkBox37.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox34.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 17</value>
   </data>
-  <data name="checkBox37.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
+  <data name="checkBox34.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
   </data>
-  <data name="checkBox37.Text" xml:space="preserve">
-    <value>D9</value>
+  <data name="checkBox34.Text" xml:space="preserve">
+    <value>D2</value>
   </data>
-  <data name="&gt;&gt;checkBox37.Name" xml:space="preserve">
-    <value>checkBox37</value>
+  <data name="&gt;&gt;checkBox34.Name" xml:space="preserve">
+    <value>checkBox34</value>
   </data>
-  <data name="&gt;&gt;checkBox37.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox34.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox37.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox34.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox37.ZOrder" xml:space="preserve">
-    <value>15</value>
+  <data name="&gt;&gt;checkBox34.ZOrder" xml:space="preserve">
+    <value>22</value>
   </data>
-  <data name="checkBox38.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox33.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox38.Location" type="System.Drawing.Point, System.Drawing">
-    <value>660, 228</value>
+  <data name="checkBox33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 228</value>
   </data>
-  <data name="checkBox38.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox38.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox33.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 17</value>
   </data>
-  <data name="checkBox38.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
+  <data name="checkBox33.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
   </data>
-  <data name="checkBox38.Text" xml:space="preserve">
-    <value>D8</value>
+  <data name="checkBox33.Text" xml:space="preserve">
+    <value>D3</value>
   </data>
-  <data name="&gt;&gt;checkBox38.Name" xml:space="preserve">
-    <value>checkBox38</value>
+  <data name="&gt;&gt;checkBox33.Name" xml:space="preserve">
+    <value>checkBox33</value>
   </data>
-  <data name="&gt;&gt;checkBox38.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox33.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox38.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox33.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox38.ZOrder" xml:space="preserve">
-    <value>16</value>
+  <data name="&gt;&gt;checkBox33.ZOrder" xml:space="preserve">
+    <value>21</value>
   </data>
-  <data name="checkBox39.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox32.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox39.Location" type="System.Drawing.Point, System.Drawing">
-    <value>621, 228</value>
+  <data name="checkBox32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 228</value>
   </data>
-  <data name="checkBox39.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox39.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox32.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 17</value>
   </data>
-  <data name="checkBox39.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
+  <data name="checkBox32.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
   </data>
-  <data name="checkBox39.Text" xml:space="preserve">
-    <value>D7</value>
+  <data name="checkBox32.Text" xml:space="preserve">
+    <value>D4</value>
   </data>
-  <data name="&gt;&gt;checkBox39.Name" xml:space="preserve">
-    <value>checkBox39</value>
+  <data name="&gt;&gt;checkBox32.Name" xml:space="preserve">
+    <value>checkBox32</value>
   </data>
-  <data name="&gt;&gt;checkBox39.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox32.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox39.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox32.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox39.ZOrder" xml:space="preserve">
-    <value>17</value>
+  <data name="&gt;&gt;checkBox32.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="checkBox31.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 228</value>
+  </data>
+  <data name="checkBox31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkBox31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
+  </data>
+  <data name="checkBox31.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="checkBox31.Text" xml:space="preserve">
+    <value>D5</value>
+  </data>
+  <data name="&gt;&gt;checkBox31.Name" xml:space="preserve">
+    <value>checkBox31</value>
+  </data>
+  <data name="&gt;&gt;checkBox31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox31.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox31.ZOrder" xml:space="preserve">
+    <value>19</value>
   </data>
   <data name="checkBox40.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1521,137 +1476,137 @@
   <data name="&gt;&gt;checkBox40.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="checkBox41.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox39.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox41.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox41.Location" type="System.Drawing.Point, System.Drawing">
-    <value>463, 263</value>
+  <data name="checkBox39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 228</value>
   </data>
-  <data name="checkBox41.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox39.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox41.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
+  <data name="checkBox39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
   </data>
-  <data name="checkBox41.TabIndex" type="System.Int32, mscorlib">
-    <value>46</value>
+  <data name="checkBox39.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
   </data>
-  <data name="checkBox41.Text" xml:space="preserve">
-    <value>E5</value>
+  <data name="checkBox39.Text" xml:space="preserve">
+    <value>D7</value>
   </data>
-  <data name="&gt;&gt;checkBox41.Name" xml:space="preserve">
-    <value>checkBox41</value>
+  <data name="&gt;&gt;checkBox39.Name" xml:space="preserve">
+    <value>checkBox39</value>
   </data>
-  <data name="&gt;&gt;checkBox41.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox39.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox41.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox39.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox41.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;checkBox39.ZOrder" xml:space="preserve">
+    <value>17</value>
   </data>
-  <data name="checkBox42.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox38.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox42.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox42.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 263</value>
+  <data name="checkBox38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 228</value>
   </data>
-  <data name="checkBox42.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox38.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox42.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
+  <data name="checkBox38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
   </data>
-  <data name="checkBox42.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
+  <data name="checkBox38.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
   </data>
-  <data name="checkBox42.Text" xml:space="preserve">
-    <value>E4</value>
+  <data name="checkBox38.Text" xml:space="preserve">
+    <value>D8</value>
   </data>
-  <data name="&gt;&gt;checkBox42.Name" xml:space="preserve">
-    <value>checkBox42</value>
+  <data name="&gt;&gt;checkBox38.Name" xml:space="preserve">
+    <value>checkBox38</value>
   </data>
-  <data name="&gt;&gt;checkBox42.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox38.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox42.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox38.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox42.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="&gt;&gt;checkBox38.ZOrder" xml:space="preserve">
+    <value>16</value>
   </data>
-  <data name="checkBox43.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox37.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox43.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox43.Location" type="System.Drawing.Point, System.Drawing">
-    <value>384, 263</value>
+  <data name="checkBox37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 228</value>
   </data>
-  <data name="checkBox43.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox37.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox43.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
+  <data name="checkBox37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
   </data>
-  <data name="checkBox43.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
+  <data name="checkBox37.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
   </data>
-  <data name="checkBox43.Text" xml:space="preserve">
-    <value>E3</value>
+  <data name="checkBox37.Text" xml:space="preserve">
+    <value>D9</value>
   </data>
-  <data name="&gt;&gt;checkBox43.Name" xml:space="preserve">
-    <value>checkBox43</value>
+  <data name="&gt;&gt;checkBox37.Name" xml:space="preserve">
+    <value>checkBox37</value>
   </data>
-  <data name="&gt;&gt;checkBox43.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox37.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox43.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox37.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox43.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="&gt;&gt;checkBox37.ZOrder" xml:space="preserve">
+    <value>15</value>
   </data>
-  <data name="checkBox44.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox36.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox44.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox44.Location" type="System.Drawing.Point, System.Drawing">
-    <value>344, 263</value>
+  <data name="checkBox36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>740, 228</value>
   </data>
-  <data name="checkBox44.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox44.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
+  <data name="checkBox36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
   </data>
-  <data name="checkBox44.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
+  <data name="checkBox36.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
   </data>
-  <data name="checkBox44.Text" xml:space="preserve">
-    <value>E2</value>
+  <data name="checkBox36.Text" xml:space="preserve">
+    <value>D10</value>
   </data>
-  <data name="&gt;&gt;checkBox44.Name" xml:space="preserve">
-    <value>checkBox44</value>
+  <data name="&gt;&gt;checkBox36.Name" xml:space="preserve">
+    <value>checkBox36</value>
   </data>
-  <data name="&gt;&gt;checkBox44.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox36.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox44.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox36.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox44.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="&gt;&gt;checkBox36.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
   <data name="checkBox45.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1686,137 +1641,137 @@
   <data name="&gt;&gt;checkBox45.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="checkBox46.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox44.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox46.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox44.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox46.Location" type="System.Drawing.Point, System.Drawing">
-    <value>740, 263</value>
+  <data name="checkBox44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 263</value>
   </data>
-  <data name="checkBox46.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox44.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox46.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 17</value>
-  </data>
-  <data name="checkBox46.TabIndex" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="checkBox46.Text" xml:space="preserve">
-    <value>E10</value>
-  </data>
-  <data name="&gt;&gt;checkBox46.Name" xml:space="preserve">
-    <value>checkBox46</value>
-  </data>
-  <data name="&gt;&gt;checkBox46.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox46.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox46.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="checkBox47.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox47.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox47.Location" type="System.Drawing.Point, System.Drawing">
-    <value>700, 263</value>
-  </data>
-  <data name="checkBox47.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="checkBox47.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox44.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
   </data>
-  <data name="checkBox47.TabIndex" type="System.Int32, mscorlib">
-    <value>50</value>
+  <data name="checkBox44.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
   </data>
-  <data name="checkBox47.Text" xml:space="preserve">
-    <value>E9</value>
+  <data name="checkBox44.Text" xml:space="preserve">
+    <value>E2</value>
   </data>
-  <data name="&gt;&gt;checkBox47.Name" xml:space="preserve">
-    <value>checkBox47</value>
+  <data name="&gt;&gt;checkBox44.Name" xml:space="preserve">
+    <value>checkBox44</value>
   </data>
-  <data name="&gt;&gt;checkBox47.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox44.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox47.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox44.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox47.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;checkBox44.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
-  <data name="checkBox48.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox43.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox48.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox43.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox48.Location" type="System.Drawing.Point, System.Drawing">
-    <value>660, 263</value>
+  <data name="checkBox43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 263</value>
   </data>
-  <data name="checkBox48.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox43.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox48.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox43.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
   </data>
-  <data name="checkBox48.TabIndex" type="System.Int32, mscorlib">
-    <value>49</value>
+  <data name="checkBox43.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
   </data>
-  <data name="checkBox48.Text" xml:space="preserve">
-    <value>E8</value>
+  <data name="checkBox43.Text" xml:space="preserve">
+    <value>E3</value>
   </data>
-  <data name="&gt;&gt;checkBox48.Name" xml:space="preserve">
-    <value>checkBox48</value>
+  <data name="&gt;&gt;checkBox43.Name" xml:space="preserve">
+    <value>checkBox43</value>
   </data>
-  <data name="&gt;&gt;checkBox48.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox43.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox48.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox43.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox48.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;checkBox43.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
-  <data name="checkBox49.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox42.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox49.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox42.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox49.Location" type="System.Drawing.Point, System.Drawing">
-    <value>621, 263</value>
+  <data name="checkBox42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 263</value>
   </data>
-  <data name="checkBox49.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox42.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="checkBox49.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBox42.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
   </data>
-  <data name="checkBox49.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
+  <data name="checkBox42.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
   </data>
-  <data name="checkBox49.Text" xml:space="preserve">
-    <value>E7</value>
+  <data name="checkBox42.Text" xml:space="preserve">
+    <value>E4</value>
   </data>
-  <data name="&gt;&gt;checkBox49.Name" xml:space="preserve">
-    <value>checkBox49</value>
+  <data name="&gt;&gt;checkBox42.Name" xml:space="preserve">
+    <value>checkBox42</value>
   </data>
-  <data name="&gt;&gt;checkBox49.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBox42.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox49.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox42.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox49.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;checkBox42.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="checkBox41.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox41.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 263</value>
+  </data>
+  <data name="checkBox41.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkBox41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="checkBox41.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="checkBox41.Text" xml:space="preserve">
+    <value>E5</value>
+  </data>
+  <data name="&gt;&gt;checkBox41.Name" xml:space="preserve">
+    <value>checkBox41</value>
+  </data>
+  <data name="&gt;&gt;checkBox41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox41.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox41.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="checkBox50.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1851,89 +1806,137 @@
   <data name="&gt;&gt;checkBox50.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="btn_elegir.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="checkBox49.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox49.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btn_elegir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 315</value>
+  <data name="checkBox49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 263</value>
   </data>
-  <data name="btn_elegir.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox49.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="btn_elegir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 48</value>
+  <data name="checkBox49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
   </data>
-  <data name="btn_elegir.TabIndex" type="System.Int32, mscorlib">
-    <value>52</value>
+  <data name="checkBox49.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
   </data>
-  <data name="btn_elegir.Text" xml:space="preserve">
-    <value>Seleccione Asientos</value>
+  <data name="checkBox49.Text" xml:space="preserve">
+    <value>E7</value>
   </data>
-  <data name="&gt;&gt;btn_elegir.Name" xml:space="preserve">
-    <value>btn_elegir</value>
+  <data name="&gt;&gt;checkBox49.Name" xml:space="preserve">
+    <value>checkBox49</value>
   </data>
-  <data name="&gt;&gt;btn_elegir.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;checkBox49.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btn_elegir.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox49.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btn_elegir.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;checkBox49.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox48.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>504, 67</value>
+  <data name="checkBox48.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+  <data name="checkBox48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 263</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 13</value>
+  <data name="checkBox48.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>53</value>
+  <data name="checkBox48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>PANTALLA</value>
+  <data name="checkBox48.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="checkBox48.Text" xml:space="preserve">
+    <value>E8</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;checkBox48.Name" xml:space="preserve">
+    <value>checkBox48</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox48.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;checkBox48.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
-  <data name="pelicula.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox47.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="pelicula.Location" type="System.Drawing.Point, System.Drawing">
-    <value>504, 35</value>
+  <data name="checkBox47.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pelicula.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 13</value>
+  <data name="checkBox47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 263</value>
   </data>
-  <data name="pelicula.TabIndex" type="System.Int32, mscorlib">
-    <value>54</value>
+  <data name="checkBox47.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
-  <data name="&gt;&gt;pelicula.Name" xml:space="preserve">
-    <value>pelicula</value>
+  <data name="checkBox47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
   </data>
-  <data name="&gt;&gt;pelicula.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="checkBox47.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
   </data>
-  <data name="&gt;&gt;pelicula.Parent" xml:space="preserve">
+  <data name="checkBox47.Text" xml:space="preserve">
+    <value>E9</value>
+  </data>
+  <data name="&gt;&gt;checkBox47.Name" xml:space="preserve">
+    <value>checkBox47</value>
+  </data>
+  <data name="&gt;&gt;checkBox47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox47.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pelicula.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;checkBox47.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkBox46.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox46.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>740, 263</value>
+  </data>
+  <data name="checkBox46.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkBox46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="checkBox46.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="checkBox46.Text" xml:space="preserve">
+    <value>E10</value>
+  </data>
+  <data name="&gt;&gt;checkBox46.Name" xml:space="preserve">
+    <value>checkBox46</value>
+  </data>
+  <data name="&gt;&gt;checkBox46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox46.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox46.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

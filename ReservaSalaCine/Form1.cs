@@ -70,109 +70,34 @@ namespace ReservaSalaCine
         {
             if (checkBox1.Checked == true)
             {
-                Cine.asientosSala[1,1] = new Asiento(1,1,true);
-                MessageBox.Show("Asiento "+TraduceLetra(1) + 1+" Seleccionado ");
+                Cine.asientosSala[1, 1] = new Asiento(1, 1, true);
+                MessageBox.Show("Asiento " + TraduceLetra(1) + 1 + " ha sido "+ traduceOcupado(Cine.asientosSala[1,1]));
 
             }
-                
+
             if (checkBox2.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
+            {
+                Cine.asientosSala[1, 2] = new Asiento(1, 2, true);
+                MessageBox.Show("Asiento " + TraduceLetra(1) + 1 + " ha sido " + traduceOcupado(Cine.asientosSala[1, 2]));
+
+            }
             if (checkBox3.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
+            {
+                Cine.asientosSala[1, 3] = new Asiento(1, 3, true);
+                MessageBox.Show("Asiento " + TraduceLetra(1) + 1 + " ha sido " + traduceOcupado(Cine.asientosSala[1, 3]));
+
+            }
             if (checkBox4.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox5.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox10.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox9.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox8.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox7.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox6.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox15.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox14.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox13.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox12.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox11.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox20.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox19.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox18.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox17.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox16.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox25.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox24.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox23.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox22.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox21.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox30.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox29.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox28.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox27.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox26.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox35.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox34.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox33.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox32.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox31.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox40.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox39.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox38.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox37.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox36.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox45.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox44.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox43.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox42.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox41.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox50.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox49.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox48.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox47.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
-            if (checkBox46.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
+            {
+                Cine.asientosSala[1, 4] = new Asiento(1, 4, true);
+                MessageBox.Show("Asiento " + TraduceLetra(1) + 1 + " ha sido " + traduceOcupado(Cine.asientosSala[1, 4]));
+
+            }
+            if (checkBox4.Checked == true)
+            {
+                Cine.asientosSala[1, 5] = new Asiento(1, 5, true);
+                MessageBox.Show("Asiento " + TraduceLetra(1) + 5 + " ha sido " + traduceOcupado(Cine.asientosSala[1, 5]));
+            }
         }
 
         private void salaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -190,6 +115,18 @@ namespace ReservaSalaCine
                 case 4: return "D"; 
                 case 5: return "E"; 
                 default: return "No encontrado";
+            }
+        }
+
+        public string traduceOcupado(Asiento asiento)
+        {
+            if (asiento.Ocupado)
+            {
+                return "Ocupado";
+            }
+            else
+            {
+                return "Desocupado;";
             }
         }
     }
