@@ -68,36 +68,20 @@ namespace ReservaSalaCine
         }
         private void btn_elegir_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                Cine.asientosSala[1, 1] = new Asiento(1, 1, true);
-                MessageBox.Show("Asiento " + TraduceLetra(1) + 1 + " ha sido "+ traduceOcupado(Cine.asientosSala[1,1]));
 
+            foreach (var c in Controls)
+            {
+                if (c is CheckBox)
+                {
+                    CheckBox cd = (CheckBox)c;
+
+                    if (cd.Checked)
+                    {
+                        MessageBox.Show("i am " + cd.Name);
+                    }
+                }
             }
 
-            if (checkBox2.Checked == true)
-            {
-                Cine.asientosSala[1, 2] = new Asiento(1, 2, true);
-                MessageBox.Show("Asiento " + TraduceLetra(1) + 1 + " ha sido " + traduceOcupado(Cine.asientosSala[1, 2]));
-
-            }
-            if (checkBox3.Checked == true)
-            {
-                Cine.asientosSala[1, 3] = new Asiento(1, 3, true);
-                MessageBox.Show("Asiento " + TraduceLetra(1) + 1 + " ha sido " + traduceOcupado(Cine.asientosSala[1, 3]));
-
-            }
-            if (checkBox4.Checked == true)
-            {
-                Cine.asientosSala[1, 4] = new Asiento(1, 4, true);
-                MessageBox.Show("Asiento " + TraduceLetra(1) + 1 + " ha sido " + traduceOcupado(Cine.asientosSala[1, 4]));
-
-            }
-            if (checkBox4.Checked == true)
-            {
-                Cine.asientosSala[1, 5] = new Asiento(1, 5, true);
-                MessageBox.Show("Asiento " + TraduceLetra(1) + 5 + " ha sido " + traduceOcupado(Cine.asientosSala[1, 5]));
-            }
         }
 
         private void salaToolStripMenuItem_Click(object sender, EventArgs e)
