@@ -121,6 +121,12 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="consultarSalaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="consultarSalaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Consultar Sala</value>
+  </data>
   <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 28</value>
   </data>
@@ -130,15 +136,27 @@
   <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="consultarSalaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 24</value>
-  </data>
-  <data name="consultarSalaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Consultar Sala</value>
-  </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>172, 17</value>
   </metadata>
+  <data name="agregarAsientoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 26</value>
+  </data>
+  <data name="agregarAsientoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Agregar Asiento</value>
+  </data>
+  <data name="verAsientosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 26</value>
+  </data>
+  <data name="verAsientosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ver Asientos</value>
+  </data>
+  <data name="venderAsientoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 26</value>
+  </data>
+  <data name="venderAsientoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vender Asiento</value>
+  </data>
   <data name="salaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 24</value>
   </data>
@@ -170,29 +188,11 @@
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>53</value>
   </data>
-  <data name="agregarAsientoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
-  </data>
-  <data name="agregarAsientoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Agregar Asiento</value>
-  </data>
-  <data name="verAsientosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
-  </data>
-  <data name="verAsientosToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ver Asientos</value>
-  </data>
-  <data name="venderAsientoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
-  </data>
-  <data name="venderAsientoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Vender Asiento</value>
-  </data>
   <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>385, 145</value>
+    <value>388, 145</value>
   </data>
   <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -213,7 +213,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
-    <value>51</value>
+    <value>52</value>
   </data>
   <data name="checkBox2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -223,7 +223,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>448, 145</value>
+    <value>451, 145</value>
   </data>
   <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -244,7 +244,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
-    <value>50</value>
+    <value>51</value>
   </data>
   <data name="checkBox3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -253,7 +253,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>501, 145</value>
+    <value>504, 145</value>
   </data>
   <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -274,7 +274,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox3.ZOrder" xml:space="preserve">
-    <value>49</value>
+    <value>50</value>
   </data>
   <data name="checkBox4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -283,7 +283,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>554, 145</value>
+    <value>557, 145</value>
   </data>
   <data name="checkBox4.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -304,7 +304,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox4.ZOrder" xml:space="preserve">
-    <value>48</value>
+    <value>49</value>
   </data>
   <data name="checkBox5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -313,7 +313,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>607, 145</value>
+    <value>610, 145</value>
   </data>
   <data name="checkBox5.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -334,7 +334,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox5.ZOrder" xml:space="preserve">
-    <value>47</value>
+    <value>48</value>
   </data>
   <data name="checkBox6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -343,7 +343,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>976, 145</value>
+    <value>961, 145</value>
   </data>
   <data name="checkBox6.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 21</value>
@@ -364,7 +364,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox6.ZOrder" xml:space="preserve">
-    <value>42</value>
+    <value>43</value>
   </data>
   <data name="checkBox7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -373,7 +373,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>923, 145</value>
+    <value>908, 145</value>
   </data>
   <data name="checkBox7.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -394,7 +394,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox7.ZOrder" xml:space="preserve">
-    <value>43</value>
+    <value>44</value>
   </data>
   <data name="checkBox8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -403,7 +403,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>870, 145</value>
+    <value>855, 145</value>
   </data>
   <data name="checkBox8.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -424,7 +424,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox8.ZOrder" xml:space="preserve">
-    <value>44</value>
+    <value>45</value>
   </data>
   <data name="checkBox9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -433,7 +433,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>817, 145</value>
+    <value>802, 145</value>
   </data>
   <data name="checkBox9.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -454,7 +454,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox9.ZOrder" xml:space="preserve">
-    <value>45</value>
+    <value>46</value>
   </data>
   <data name="checkBox10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -463,7 +463,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>754, 145</value>
+    <value>739, 145</value>
   </data>
   <data name="checkBox10.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -484,7 +484,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox10.ZOrder" xml:space="preserve">
-    <value>46</value>
+    <value>47</value>
   </data>
   <data name="checkBox11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -493,7 +493,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>607, 191</value>
+    <value>610, 191</value>
   </data>
   <data name="checkBox11.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -514,7 +514,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox11.ZOrder" xml:space="preserve">
-    <value>37</value>
+    <value>38</value>
   </data>
   <data name="checkBox12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -523,7 +523,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>554, 191</value>
+    <value>557, 191</value>
   </data>
   <data name="checkBox12.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -544,7 +544,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox12.ZOrder" xml:space="preserve">
-    <value>38</value>
+    <value>39</value>
   </data>
   <data name="checkBox13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -553,7 +553,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>501, 191</value>
+    <value>504, 191</value>
   </data>
   <data name="checkBox13.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -574,7 +574,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox13.ZOrder" xml:space="preserve">
-    <value>39</value>
+    <value>40</value>
   </data>
   <data name="checkBox14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -583,7 +583,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>448, 191</value>
+    <value>451, 191</value>
   </data>
   <data name="checkBox14.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -604,7 +604,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox14.ZOrder" xml:space="preserve">
-    <value>40</value>
+    <value>41</value>
   </data>
   <data name="checkBox15.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -613,7 +613,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>385, 191</value>
+    <value>388, 191</value>
   </data>
   <data name="checkBox15.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -634,7 +634,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox15.ZOrder" xml:space="preserve">
-    <value>41</value>
+    <value>42</value>
   </data>
   <data name="checkBox16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -643,7 +643,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>976, 191</value>
+    <value>961, 191</value>
   </data>
   <data name="checkBox16.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 21</value>
@@ -664,7 +664,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox16.ZOrder" xml:space="preserve">
-    <value>32</value>
+    <value>33</value>
   </data>
   <data name="checkBox17.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -673,7 +673,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>923, 191</value>
+    <value>908, 191</value>
   </data>
   <data name="checkBox17.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -694,7 +694,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox17.ZOrder" xml:space="preserve">
-    <value>33</value>
+    <value>34</value>
   </data>
   <data name="checkBox18.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -703,7 +703,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>870, 191</value>
+    <value>855, 191</value>
   </data>
   <data name="checkBox18.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -724,7 +724,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox18.ZOrder" xml:space="preserve">
-    <value>34</value>
+    <value>35</value>
   </data>
   <data name="checkBox19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -733,7 +733,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>817, 191</value>
+    <value>802, 191</value>
   </data>
   <data name="checkBox19.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -754,7 +754,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox19.ZOrder" xml:space="preserve">
-    <value>35</value>
+    <value>36</value>
   </data>
   <data name="checkBox20.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -763,7 +763,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>754, 191</value>
+    <value>739, 191</value>
   </data>
   <data name="checkBox20.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -784,7 +784,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox20.ZOrder" xml:space="preserve">
-    <value>36</value>
+    <value>37</value>
   </data>
   <data name="checkBox21.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -793,7 +793,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>607, 238</value>
+    <value>610, 238</value>
   </data>
   <data name="checkBox21.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -814,7 +814,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox21.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>28</value>
   </data>
   <data name="checkBox22.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -823,7 +823,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>554, 238</value>
+    <value>557, 238</value>
   </data>
   <data name="checkBox22.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -844,7 +844,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox22.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>29</value>
   </data>
   <data name="checkBox23.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -853,7 +853,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>501, 238</value>
+    <value>504, 238</value>
   </data>
   <data name="checkBox23.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -874,7 +874,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox23.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>30</value>
   </data>
   <data name="checkBox24.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -883,7 +883,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>448, 238</value>
+    <value>451, 238</value>
   </data>
   <data name="checkBox24.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -904,7 +904,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox24.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>31</value>
   </data>
   <data name="checkBox25.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -913,7 +913,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox25.Location" type="System.Drawing.Point, System.Drawing">
-    <value>385, 238</value>
+    <value>388, 238</value>
   </data>
   <data name="checkBox25.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -934,7 +934,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox25.ZOrder" xml:space="preserve">
-    <value>31</value>
+    <value>32</value>
   </data>
   <data name="checkBox26.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -943,7 +943,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox26.Location" type="System.Drawing.Point, System.Drawing">
-    <value>976, 238</value>
+    <value>961, 238</value>
   </data>
   <data name="checkBox26.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 21</value>
@@ -964,7 +964,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox26.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>23</value>
   </data>
   <data name="checkBox27.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -973,7 +973,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox27.Location" type="System.Drawing.Point, System.Drawing">
-    <value>923, 238</value>
+    <value>908, 238</value>
   </data>
   <data name="checkBox27.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -994,7 +994,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox27.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>24</value>
   </data>
   <data name="checkBox28.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1003,7 +1003,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox28.Location" type="System.Drawing.Point, System.Drawing">
-    <value>870, 238</value>
+    <value>855, 238</value>
   </data>
   <data name="checkBox28.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -1024,7 +1024,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox28.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>25</value>
   </data>
   <data name="checkBox29.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1033,7 +1033,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox29.Location" type="System.Drawing.Point, System.Drawing">
-    <value>817, 238</value>
+    <value>802, 238</value>
   </data>
   <data name="checkBox29.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -1054,7 +1054,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox29.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>26</value>
   </data>
   <data name="checkBox30.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1063,7 +1063,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox30.Location" type="System.Drawing.Point, System.Drawing">
-    <value>754, 238</value>
+    <value>739, 238</value>
   </data>
   <data name="checkBox30.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -1084,7 +1084,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox30.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>27</value>
   </data>
   <data name="checkBox31.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1093,7 +1093,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox31.Location" type="System.Drawing.Point, System.Drawing">
-    <value>607, 282</value>
+    <value>610, 282</value>
   </data>
   <data name="checkBox31.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 21</value>
@@ -1114,7 +1114,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox31.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="checkBox32.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1123,7 +1123,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox32.Location" type="System.Drawing.Point, System.Drawing">
-    <value>554, 282</value>
+    <value>557, 282</value>
   </data>
   <data name="checkBox32.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 21</value>
@@ -1144,7 +1144,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox32.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="checkBox33.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1153,7 +1153,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox33.Location" type="System.Drawing.Point, System.Drawing">
-    <value>501, 282</value>
+    <value>504, 282</value>
   </data>
   <data name="checkBox33.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 21</value>
@@ -1174,7 +1174,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox33.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="checkBox34.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1183,7 +1183,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox34.Location" type="System.Drawing.Point, System.Drawing">
-    <value>448, 282</value>
+    <value>451, 282</value>
   </data>
   <data name="checkBox34.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 21</value>
@@ -1204,7 +1204,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox34.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="checkBox35.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1213,7 +1213,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox35.Location" type="System.Drawing.Point, System.Drawing">
-    <value>385, 282</value>
+    <value>388, 282</value>
   </data>
   <data name="checkBox35.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 21</value>
@@ -1234,7 +1234,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox35.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>22</value>
   </data>
   <data name="checkBox36.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1243,7 +1243,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox36.Location" type="System.Drawing.Point, System.Drawing">
-    <value>976, 282</value>
+    <value>961, 282</value>
   </data>
   <data name="checkBox36.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 21</value>
@@ -1264,7 +1264,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox36.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="checkBox37.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1273,7 +1273,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox37.Location" type="System.Drawing.Point, System.Drawing">
-    <value>923, 282</value>
+    <value>908, 282</value>
   </data>
   <data name="checkBox37.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 21</value>
@@ -1294,7 +1294,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox37.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="checkBox38.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1303,7 +1303,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox38.Location" type="System.Drawing.Point, System.Drawing">
-    <value>870, 282</value>
+    <value>855, 282</value>
   </data>
   <data name="checkBox38.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 21</value>
@@ -1324,7 +1324,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox38.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="checkBox39.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1333,7 +1333,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox39.Location" type="System.Drawing.Point, System.Drawing">
-    <value>817, 282</value>
+    <value>802, 282</value>
   </data>
   <data name="checkBox39.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 21</value>
@@ -1354,7 +1354,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox39.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="checkBox40.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1363,7 +1363,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox40.Location" type="System.Drawing.Point, System.Drawing">
-    <value>754, 282</value>
+    <value>739, 282</value>
   </data>
   <data name="checkBox40.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 21</value>
@@ -1384,7 +1384,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox40.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="checkBox41.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1393,7 +1393,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox41.Location" type="System.Drawing.Point, System.Drawing">
-    <value>607, 325</value>
+    <value>610, 325</value>
   </data>
   <data name="checkBox41.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -1414,7 +1414,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox41.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="checkBox42.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1423,7 +1423,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox42.Location" type="System.Drawing.Point, System.Drawing">
-    <value>554, 325</value>
+    <value>557, 325</value>
   </data>
   <data name="checkBox42.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -1444,7 +1444,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox42.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="checkBox43.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1453,7 +1453,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox43.Location" type="System.Drawing.Point, System.Drawing">
-    <value>501, 325</value>
+    <value>504, 325</value>
   </data>
   <data name="checkBox43.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -1474,7 +1474,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox43.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="checkBox44.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1483,7 +1483,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox44.Location" type="System.Drawing.Point, System.Drawing">
-    <value>448, 325</value>
+    <value>451, 325</value>
   </data>
   <data name="checkBox44.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -1504,7 +1504,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox44.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="checkBox45.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1513,7 +1513,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox45.Location" type="System.Drawing.Point, System.Drawing">
-    <value>385, 325</value>
+    <value>388, 325</value>
   </data>
   <data name="checkBox45.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -1534,7 +1534,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox45.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="checkBox46.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1543,7 +1543,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox46.Location" type="System.Drawing.Point, System.Drawing">
-    <value>976, 325</value>
+    <value>961, 325</value>
   </data>
   <data name="checkBox46.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 21</value>
@@ -1564,7 +1564,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox46.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="checkBox47.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1573,7 +1573,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox47.Location" type="System.Drawing.Point, System.Drawing">
-    <value>923, 325</value>
+    <value>908, 325</value>
   </data>
   <data name="checkBox47.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -1594,7 +1594,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox47.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="checkBox48.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1603,7 +1603,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox48.Location" type="System.Drawing.Point, System.Drawing">
-    <value>870, 325</value>
+    <value>855, 325</value>
   </data>
   <data name="checkBox48.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -1624,7 +1624,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox48.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="checkBox49.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1633,7 +1633,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox49.Location" type="System.Drawing.Point, System.Drawing">
-    <value>817, 325</value>
+    <value>802, 325</value>
   </data>
   <data name="checkBox49.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -1654,7 +1654,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox49.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="checkBox50.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1663,7 +1663,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox50.Location" type="System.Drawing.Point, System.Drawing">
-    <value>754, 325</value>
+    <value>739, 325</value>
   </data>
   <data name="checkBox50.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 21</value>
@@ -1684,10 +1684,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox50.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="btn_elegir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>554, 389</value>
+    <value>539, 391</value>
   </data>
   <data name="btn_elegir.Size" type="System.Drawing.Size, System.Drawing">
     <value>310, 59</value>
@@ -1708,13 +1708,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btn_elegir.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>661, 84</value>
+    <value>658, 111</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>79, 17</value>
@@ -1735,7 +1735,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
