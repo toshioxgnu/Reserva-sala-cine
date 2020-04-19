@@ -22,52 +22,13 @@ namespace ReservaSalaCine
         {
             InitializeComponent();
             if (pelicula != null) pelicula.Text = Cine.Pelicula;
+
         }
 
 
-        public bool validaRut(string rut)
-        {
-            int[] constantesValidacion = { 3, 2, 7, 6, 5, 4, 3, 2 };
-            double suma = 0;
-
-            switch (rut.Length)
-            {
-                case 9: rut = "0" + rut;break;
-                case 8: rut = "00" + rut; break;
-                case 7: rut = "000" + rut; break;
-                case 6: rut = "0000" + rut; break;
-
-            }
-
-            double division = suma / 11;
-            int divisionentero = (int)division;
-            double resto = division - divisionentero;
-            double resta = 11 - (11 * resto);
-            var digito = Math.Round(resta);
-
-            string digitorut = rut[9].ToString();
-
-            if (digitorut == "k")
-            {
-                digitorut = "9";
-            }
-            else if (digitorut == "0")
-
-            {
-                digitorut = "11";
-            }
-
-            if (digito.ToString() == digitorut)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
         private void btn_elegir_Click(object sender, EventArgs e)
         {
+            string asientosReservados = "";
 
             foreach (var c in Controls)
             {
@@ -77,10 +38,14 @@ namespace ReservaSalaCine
 
                     if (cd.Checked)
                     {
-                        MessageBox.Show("i am " + cd.Name);
+                        string celda = cd.Text.ToString();
+                        Cine.asientosSala[traduceLetra(celda[0].ToString()), Int32.Parse(celda[1].ToString())] = new Asiento(traduceLetra(celda[0].ToString()),Int32.Parse(celda[1].ToString()), true );
+                        asientosReservados = asientosReservados + cd.Text.ToString()+ ", ";
                     }
                 }
             }
+
+            MessageBox.Show("Asientos " + asientosReservados + " Han sido reservados ");
 
         }
 
@@ -89,7 +54,7 @@ namespace ReservaSalaCine
 
         }
 
-        public string TraduceLetra(int pos)
+        public string traduceFila(int pos)
         {
             switch (pos)
             {
@@ -99,6 +64,18 @@ namespace ReservaSalaCine
                 case 4: return "D"; 
                 case 5: return "E"; 
                 default: return "No encontrado";
+            }
+        }
+        public int traduceLetra(string letra)
+        {
+            switch (letra)
+            {
+                case "A": return 1;
+                case "B": return 2;
+                case "C": return 3;
+                case "D": return 4;
+                case "E": return 5;
+                default: return 0;
             }
         }
 

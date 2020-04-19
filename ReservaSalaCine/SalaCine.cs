@@ -10,7 +10,7 @@ namespace ReservaSalaCine
     {
         private int numeroSala;
         private string pelicula;
-        public Asiento[,] asientosSala = new Asiento[10,5];
+        public Asiento[,] asientosSala = new Asiento[5,10];
 
         public SalaCine(int numeroSala, string pelicula)
         {
