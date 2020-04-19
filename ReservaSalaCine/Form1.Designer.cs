@@ -34,9 +34,11 @@
             this.consultarSalaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.salaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.agregarAsientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.verAsientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.venderAsientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sala1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sala2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sala3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sala4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sala5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
@@ -89,6 +91,7 @@
             this.checkBox50 = new System.Windows.Forms.CheckBox();
             this.btn_elegir = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.pelicula = new System.Windows.Forms.Label();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -117,26 +120,39 @@
             // salaToolStripMenuItem
             // 
             this.salaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.agregarAsientoToolStripMenuItem,
-            this.verAsientosToolStripMenuItem,
-            this.venderAsientoToolStripMenuItem});
+            this.sala1ToolStripMenuItem,
+            this.sala2ToolStripMenuItem,
+            this.sala3ToolStripMenuItem,
+            this.sala4ToolStripMenuItem,
+            this.sala5ToolStripMenuItem});
             this.salaToolStripMenuItem.Name = "salaToolStripMenuItem";
             resources.ApplyResources(this.salaToolStripMenuItem, "salaToolStripMenuItem");
+            this.salaToolStripMenuItem.Click += new System.EventHandler(this.salaToolStripMenuItem_Click);
             // 
-            // agregarAsientoToolStripMenuItem
+            // sala1ToolStripMenuItem
             // 
-            this.agregarAsientoToolStripMenuItem.Name = "agregarAsientoToolStripMenuItem";
-            resources.ApplyResources(this.agregarAsientoToolStripMenuItem, "agregarAsientoToolStripMenuItem");
+            this.sala1ToolStripMenuItem.Name = "sala1ToolStripMenuItem";
+            resources.ApplyResources(this.sala1ToolStripMenuItem, "sala1ToolStripMenuItem");
             // 
-            // verAsientosToolStripMenuItem
+            // sala2ToolStripMenuItem
             // 
-            this.verAsientosToolStripMenuItem.Name = "verAsientosToolStripMenuItem";
-            resources.ApplyResources(this.verAsientosToolStripMenuItem, "verAsientosToolStripMenuItem");
+            this.sala2ToolStripMenuItem.Name = "sala2ToolStripMenuItem";
+            resources.ApplyResources(this.sala2ToolStripMenuItem, "sala2ToolStripMenuItem");
             // 
-            // venderAsientoToolStripMenuItem
+            // sala3ToolStripMenuItem
             // 
-            this.venderAsientoToolStripMenuItem.Name = "venderAsientoToolStripMenuItem";
-            resources.ApplyResources(this.venderAsientoToolStripMenuItem, "venderAsientoToolStripMenuItem");
+            this.sala3ToolStripMenuItem.Name = "sala3ToolStripMenuItem";
+            resources.ApplyResources(this.sala3ToolStripMenuItem, "sala3ToolStripMenuItem");
+            // 
+            // sala4ToolStripMenuItem
+            // 
+            this.sala4ToolStripMenuItem.Name = "sala4ToolStripMenuItem";
+            resources.ApplyResources(this.sala4ToolStripMenuItem, "sala4ToolStripMenuItem");
+            // 
+            // sala5ToolStripMenuItem
+            // 
+            this.sala5ToolStripMenuItem.Name = "sala5ToolStripMenuItem";
+            resources.ApplyResources(this.sala5ToolStripMenuItem, "sala5ToolStripMenuItem");
             // 
             // checkBox1
             // 
@@ -450,11 +466,17 @@
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
+            // pelicula
+            // 
+            resources.ApplyResources(this.pelicula, "pelicula");
+            this.pelicula.Name = "pelicula";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.pelicula);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_elegir);
             this.Controls.Add(this.checkBox46);
@@ -524,9 +546,6 @@
         private System.Windows.Forms.ToolStripMenuItem consultarSalaToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem salaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem agregarAsientoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem verAsientosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem venderAsientoToolStripMenuItem;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
@@ -579,6 +598,12 @@
         private System.Windows.Forms.CheckBox checkBox50;
         private System.Windows.Forms.Button btn_elegir;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem sala1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sala2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sala3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sala4ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sala5ToolStripMenuItem;
+        private System.Windows.Forms.Label pelicula;
     }
 }
 

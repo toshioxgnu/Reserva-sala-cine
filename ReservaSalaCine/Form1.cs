@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,11 +13,15 @@ namespace ReservaSalaCine
 {
     public partial class Form1 : Form
     {
-        SalaCine[] CineMelocoton = new SalaCine[5];
+        
+        SalaCine Cine = new SalaCine(1, "El Planeta de los Simios");
+
+        private SalaCine[] cine;
 
         public Form1()
         {
             InitializeComponent();
+            if (pelicula != null) pelicula.Text = Cine.Pelicula;
         }
 
 
@@ -64,7 +69,12 @@ namespace ReservaSalaCine
         private void btn_elegir_Click(object sender, EventArgs e)
         {
             if (checkBox1.Checked == true)
-                MessageBox.Show("Asiento Seleccionado");
+            {
+                Cine.asientosSala[1,1] = new Asiento(1,1,true);
+                MessageBox.Show("Asiento "+TraduceLetra(1) + 1+" Seleccionado ");
+
+            }
+                
             if (checkBox2.Checked == true)
                 MessageBox.Show("Asiento Seleccionado");
             if (checkBox3.Checked == true)
@@ -165,5 +175,22 @@ namespace ReservaSalaCine
                 MessageBox.Show("Asiento Seleccionado");
         }
 
+        private void salaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public string TraduceLetra(int pos)
+        {
+            switch (pos)
+            {
+                case 1: return "A";
+                case 2: return "B"; 
+                case 3: return "C"; 
+                case 4: return "D"; 
+                case 5: return "E"; 
+                default: return "No encontrado";
+            }
+        }
     }
 }

@@ -19,6 +19,8 @@ namespace ReservaSalaCine
             Application.Run(new Form1());
 
         }
+    }
+}
 
 
 

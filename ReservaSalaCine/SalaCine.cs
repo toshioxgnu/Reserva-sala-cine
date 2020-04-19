@@ -10,7 +10,7 @@ namespace ReservaSalaCine
     {
         private int numeroSala;
         private string pelicula;
-        private Asiento[,] asientosSala = new Asiento[10,5];
+        public Asiento[,] asientosSala = new Asiento[10,5];
 
         public SalaCine(int numeroSala, string pelicula)
         {
@@ -30,10 +30,5 @@ namespace ReservaSalaCine
             set => pelicula = value;
         }
 
-        public Asiento[,] AsientosSala
-        {
-            get => asientosSala;
-            set => asientosSala = value;
-        }
     }
 }
