@@ -82,5 +82,11 @@ namespace ReservaSalaCine
                 return false;
             }
         }
+
+        private void evaluacion2ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var evaluacion2 = new Form3();
+            evaluacion2.Show();
+        }
     }
 }
