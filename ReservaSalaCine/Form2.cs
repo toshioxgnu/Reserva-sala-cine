@@ -28,13 +28,12 @@ namespace ReservaSalaCine
                 Usuario.Rut = textBox2.Text;
                 Usuario.InicioSesion = DateTime.Now;
                 Usuario.Accion = button1.Text;
-                Usuario.AccionF = DateTime.Now;
                 LISTAEVALUA2.Add(Usuario);
 
                 sesion.sessionRut = Usuario.Rut;
                 sesion.sessionInicio = Usuario.InicioSesion;
 
-                var formprincipal = new Form1();
+                var formprincipal = new Form1( LISTAEVALUA2);
                 var formLogin = new Form2();
                 formLogin.Hide();
                 formprincipal.Show();

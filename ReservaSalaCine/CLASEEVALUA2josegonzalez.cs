@@ -39,7 +39,7 @@ namespace ReservaSalaCine
         public DateTime finSesion
         {
             set { FinSesion = value; }
-            get { return finSesion; }
+            get { return FinSesion; }
         }
 
         public string Accion
@@ -50,7 +50,7 @@ namespace ReservaSalaCine
 
         public DateTime AccionF
         {
-            set { AccionF = value; }
+            set { accionF = value; }
             get { return accionF; }
         }
 

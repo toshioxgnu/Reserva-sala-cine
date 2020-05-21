@@ -14,6 +14,7 @@ namespace ReservaSalaCine
 {
     public partial class Form1 : Form
     {
+        List<CLASEEVALUA2josegonzalez> LISTAEVALUA2 = new List<CLASEEVALUA2josegonzalez>();
         CLASEEVALUA2josegonzalez usuario = new CLASEEVALUA2josegonzalez();
         private string archivoruta = @"C:\TXTS\VIGIAJOSEGONZALEZ.txt";
 
@@ -26,6 +27,13 @@ namespace ReservaSalaCine
             InitializeComponent();
             if (pelicula != null) pelicula.Text = Cine.Pelicula;
 
+        }
+
+        public Form1(List<CLASEEVALUA2josegonzalez> lista)
+        {
+            LISTAEVALUA2 = lista;
+            InitializeComponent();
+            if (pelicula != null) pelicula.Text = Cine.Pelicula;
         }
 
         private void btn_elegir_Click(object sender, EventArgs e)
@@ -46,14 +54,50 @@ namespace ReservaSalaCine
                     }
                 }
             }
+            MessageBox.Show("Asientos " + asientosReservados + " Han sido reservados ");
+            CLASEEVALUA2josegonzalez Usuario = new CLASEEVALUA2josegonzalez();
+            Usuario.Rut = sesion.sessionRut;
+            Usuario.InicioSesion = sesion.sessionInicio;
+            Usuario.Accion = "Reserva asientos ";
+            Usuario.AccionF = DateTime.Now;
+            LISTAEVALUA2.Add(Usuario);
 
+        }
+
+        private void cierraSesion_Click(object sender, EventArgs e)
+        {
             usuario.Rut = sesion.sessionRut;
             usuario.InicioSesion = sesion.sessionInicio;
-            usuario.Accion = "Reserva asiento :"+ asientosReservados ;
-            usuario.AccionF = DateTime.Now; 
+            usuario.Accion = "Cierra Sesion";
+            usuario.finSesion = DateTime.Now;
+            LISTAEVALUA2.Add(usuario);
 
-            MessageBox.Show("Asientos " + asientosReservados + " Han sido reservados ");
+            if (!File.Exists(archivoruta))
+            {
+                StreamWriter archivo = new StreamWriter(archivoruta);
+                foreach (CLASEEVALUA2josegonzalez claseevalua2 in LISTAEVALUA2)
+                {
+                    archivo.WriteLine(claseevalua2.Rut + ", " + claseevalua2.InicioSesion + ", " + claseevalua2.finSesion +
+                                      ", " + claseevalua2.Accion 
+                                      + ", " + claseevalua2.AccionF+";");
+                }
+                archivo.Close();
 
+            }
+            else
+            {
+                using (StreamWriter sr = File.AppendText(archivoruta))
+                {
+                    foreach(CLASEEVALUA2josegonzalez claseevalua2 in LISTAEVALUA2)
+                    {
+                        sr.WriteLine(claseevalua2.Rut + ", " + claseevalua2.InicioSesion + ", " + claseevalua2.finSesion +
+                                          ", " + claseevalua2.Accion
+                                          + ", " + claseevalua2.AccionF + ";");
+                    }
+                    sr.Close();
+                }
+            }
+            this.Close();
         }
 
         public string traduceFila(int pos)
@@ -91,16 +135,6 @@ namespace ReservaSalaCine
             {
                 return "Desocupado;";
             }
-        }
-
-        private void cierraSesion_Click(object sender, EventArgs e)
-        {
-            
-            using (StreamWriter writer = File.AppendText(archivoruta))
-            {
-                writer.WriteLine(linea);
-            }
-
         }
     }
 }
