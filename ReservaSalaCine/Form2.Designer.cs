@@ -51,9 +51,9 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(92, 112);
+            this.textBox1.Location = new System.Drawing.Point(101, 112);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(174, 20);
+            this.textBox1.Size = new System.Drawing.Size(212, 20);
             this.textBox1.TabIndex = 1;
             // 
             // label2
@@ -67,16 +67,16 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(92, 163);
+            this.textBox2.Location = new System.Drawing.Point(101, 164);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(174, 20);
+            this.textBox2.Size = new System.Drawing.Size(212, 20);
             this.textBox2.TabIndex = 3;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(92, 278);
+            this.button1.Location = new System.Drawing.Point(101, 262);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(153, 55);
+            this.button1.Size = new System.Drawing.Size(212, 72);
             this.button1.TabIndex = 4;
             this.button1.Text = "Ingresar";
             this.button1.UseVisualStyleBackColor = true;
@@ -103,7 +103,7 @@
             // evaluacion2ToolStripMenuItem1
             // 
             this.evaluacion2ToolStripMenuItem1.Name = "evaluacion2ToolStripMenuItem1";
-            this.evaluacion2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.evaluacion2ToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
             this.evaluacion2ToolStripMenuItem1.Text = "Evaluacion 2";
             this.evaluacion2ToolStripMenuItem1.Click += new System.EventHandler(this.evaluacion2ToolStripMenuItem1_Click);
             // 

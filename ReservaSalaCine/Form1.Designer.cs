@@ -92,6 +92,7 @@
             this.checkBox48 = new System.Windows.Forms.CheckBox();
             this.checkBox47 = new System.Windows.Forms.CheckBox();
             this.checkBox46 = new System.Windows.Forms.CheckBox();
+            this.cierraSesion = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -127,7 +128,6 @@
             this.sala5ToolStripMenuItem});
             this.salaToolStripMenuItem.Name = "salaToolStripMenuItem";
             resources.ApplyResources(this.salaToolStripMenuItem, "salaToolStripMenuItem");
-            this.salaToolStripMenuItem.Click += new System.EventHandler(this.salaToolStripMenuItem_Click);
             // 
             // sala1ToolStripMenuItem
             // 
@@ -471,11 +471,19 @@
             this.checkBox46.Name = "checkBox46";
             this.checkBox46.UseVisualStyleBackColor = true;
             // 
+            // cierraSesion
+            // 
+            resources.ApplyResources(this.cierraSesion, "cierraSesion");
+            this.cierraSesion.Name = "cierraSesion";
+            this.cierraSesion.UseVisualStyleBackColor = true;
+            this.cierraSesion.Click += new System.EventHandler(this.cierraSesion_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.cierraSesion);
             this.Controls.Add(this.pelicula);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_elegir);
@@ -604,6 +612,7 @@
         private System.Windows.Forms.CheckBox checkBox48;
         private System.Windows.Forms.CheckBox checkBox47;
         private System.Windows.Forms.CheckBox checkBox46;
+        private System.Windows.Forms.Button cierraSesion;
     }
 }
 

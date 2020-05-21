@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -13,7 +14,9 @@ namespace ReservaSalaCine
 {
     public partial class Form1 : Form
     {
-        
+        CLASEEVALUA2josegonzalez usuario = new CLASEEVALUA2josegonzalez();
+        private string archivoruta = @"C:\TXTS\VIGIAJOSEGONZALEZ.txt";
+
         SalaCine Cine = new SalaCine(1, "El Planeta de los Simios");
 
         private SalaCine[] cine;
@@ -24,7 +27,6 @@ namespace ReservaSalaCine
             if (pelicula != null) pelicula.Text = Cine.Pelicula;
 
         }
-
 
         private void btn_elegir_Click(object sender, EventArgs e)
         {
@@ -45,12 +47,12 @@ namespace ReservaSalaCine
                 }
             }
 
+            usuario.Rut = sesion.sessionRut;
+            usuario.InicioSesion = sesion.sessionInicio;
+            usuario.Accion = "Reserva asiento :"+ asientosReservados ;
+            usuario.AccionF = DateTime.Now; 
+
             MessageBox.Show("Asientos " + asientosReservados + " Han sido reservados ");
-
-        }
-
-        private void salaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
 
         }
 
@@ -89,6 +91,16 @@ namespace ReservaSalaCine
             {
                 return "Desocupado;";
             }
+        }
+
+        private void cierraSesion_Click(object sender, EventArgs e)
+        {
+            
+            using (StreamWriter writer = File.AppendText(archivoruta))
+            {
+                writer.WriteLine(linea);
+            }
+
         }
     }
 }

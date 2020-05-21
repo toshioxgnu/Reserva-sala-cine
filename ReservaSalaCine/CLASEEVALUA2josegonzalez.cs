@@ -14,7 +14,7 @@ namespace ReservaSalaCine
         {
             this.rut = rut;
             this.inicioSesion = inicioSesion;
-            FinSesion = finSesion;
+            this.FinSesion = finSesion;
             this.accion = accion;
             this.accionF = accionF;
         }
@@ -53,7 +53,6 @@ namespace ReservaSalaCine
             set { AccionF = value; }
             get { return accionF; }
         }
-
 
     }
 }

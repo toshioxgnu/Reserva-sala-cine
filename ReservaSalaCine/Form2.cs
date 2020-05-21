@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,8 @@ namespace ReservaSalaCine
 {
     public partial class Form2 : Form
     {
-
+        List<CLASEEVALUA2josegonzalez> LISTAEVALUA2 = new List<CLASEEVALUA2josegonzalez>();
+        CLASEEVALUA2josegonzalez Usuario = new CLASEEVALUA2josegonzalez();
         public Form2()
         {
             InitializeComponent();
@@ -23,6 +25,15 @@ namespace ReservaSalaCine
             string rut = textBox2.Text;
             if (validaRut(rut))
             {
+                Usuario.Rut = textBox2.Text;
+                Usuario.InicioSesion = DateTime.Now;
+                Usuario.Accion = button1.Text;
+                Usuario.AccionF = DateTime.Now;
+                LISTAEVALUA2.Add(Usuario);
+
+                sesion.sessionRut = Usuario.Rut;
+                sesion.sessionInicio = Usuario.InicioSesion;
+
                 var formprincipal = new Form1();
                 var formLogin = new Form2();
                 formLogin.Hide();
@@ -34,6 +45,11 @@ namespace ReservaSalaCine
             }
         }
 
+        private void evaluacion2ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var evaluacion2 = new Form3();
+            evaluacion2.Show();
+        }
 
         public bool validaRut(string rut)
         {
@@ -46,7 +62,6 @@ namespace ReservaSalaCine
                 case 8: rut = "00" + rut; break;
                 case 7: rut = "000" + rut; break;
                 case 6: rut = "0000" + rut; break;
-
             }
 
             for (int j = 0; j < constantesValidacion.Length; j++)
@@ -81,12 +96,6 @@ namespace ReservaSalaCine
             {
                 return false;
             }
-        }
-
-        private void evaluacion2ToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            var evaluacion2 = new Form3();
-            evaluacion2.Show();
         }
     }
 }
