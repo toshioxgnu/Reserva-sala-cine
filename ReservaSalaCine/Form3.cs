@@ -25,6 +25,7 @@ namespace ReservaSalaCine
 
         private void btn_muestratodo_Click(object sender, EventArgs e)
         {
+            muestra.Clear();
             StreamReader leer = new StreamReader(archivoruta);
             string linea;
             linea = leer.ReadLine();
@@ -47,11 +48,33 @@ namespace ReservaSalaCine
 
         private void btn_busca_Click(object sender, EventArgs e)
         {
-
+            muestra.Clear();
+            StreamReader leer = new StreamReader(archivoruta);
+            string linea;
+            linea = leer.ReadLine();
+            while (linea != null)
+            {
+                string[] datos = linea.Split(',');
+                if (datos[0].Equals(txtbusca.Text))
+                {
+                    string[] fecha;
+                    for (int i = 0; i < datos.Length; i += 5)
+                    {
+                        fecha = datos[i + 4].Split(';');
+                        CLASEEVALUA2josegonzalez usuario = new CLASEEVALUA2josegonzalez(datos[i], Convert.ToDateTime(datos[i + 1]),
+                            Convert.ToDateTime(datos[i + 2]), datos[i + 3], Convert.ToDateTime(fecha[0]));
+                        muestra.Add(usuario);
+                    }
+                }
+                linea = leer.ReadLine();
+            }
+            leer.Close();
+            mostrar(muestra);
         }
 
         public void mostrar(List<CLASEEVALUA2josegonzalez> lista)
         {
+            listView1.Items.Clear();
             foreach (CLASEEVALUA2josegonzalez dato in lista)
             {
                 ListViewItem al = new ListViewItem(dato.Rut);

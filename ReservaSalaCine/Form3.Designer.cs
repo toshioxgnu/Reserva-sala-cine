@@ -31,16 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtbusca = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btn_muestratodo = new System.Windows.Forms.Button();
-            this.btn_busca = new System.Windows.Forms.Button();
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btn_muestratodo = new System.Windows.Forms.Button();
+            this.btn_busca = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,13 +64,13 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // txtbusca
             // 
-            this.textBox1.Location = new System.Drawing.Point(118, 117);
-            this.textBox1.MaxLength = 10;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(136, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtbusca.Location = new System.Drawing.Point(118, 117);
+            this.txtbusca.MaxLength = 10;
+            this.txtbusca.Name = "txtbusca";
+            this.txtbusca.Size = new System.Drawing.Size(136, 20);
+            this.txtbusca.TabIndex = 2;
             // 
             // label2
             // 
@@ -112,6 +112,15 @@
             this.columnHeader3.Text = "Fin Sesion";
             this.columnHeader3.Width = 100;
             // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Accion";
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "AccionF";
+            this.columnHeader5.Width = 100;
+            // 
             // btn_muestratodo
             // 
             this.btn_muestratodo.Location = new System.Drawing.Point(28, 157);
@@ -132,15 +141,6 @@
             this.btn_busca.UseVisualStyleBackColor = true;
             this.btn_busca.Click += new System.EventHandler(this.btn_busca_Click);
             // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Accion";
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "AccionF";
-            this.columnHeader5.Width = 100;
-            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -151,7 +151,7 @@
             this.Controls.Add(this.btn_muestratodo);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtbusca);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -167,7 +167,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtbusca;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ColumnHeader columnHeader1;
