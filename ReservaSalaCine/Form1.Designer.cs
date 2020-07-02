@@ -39,6 +39,7 @@
             this.sala3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sala4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sala5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.evaluacion2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_elegir = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pelicula = new System.Windows.Forms.Label();
@@ -93,6 +94,8 @@
             this.checkBox47 = new System.Windows.Forms.CheckBox();
             this.checkBox46 = new System.Windows.Forms.CheckBox();
             this.cierraSesion = new System.Windows.Forms.Button();
+            this.evaluacion2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.evaluacion3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -114,7 +117,8 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.salaToolStripMenuItem});
+            this.salaToolStripMenuItem,
+            this.evaluacion2ToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
@@ -153,6 +157,14 @@
             // 
             this.sala5ToolStripMenuItem.Name = "sala5ToolStripMenuItem";
             resources.ApplyResources(this.sala5ToolStripMenuItem, "sala5ToolStripMenuItem");
+            // 
+            // evaluacion2ToolStripMenuItem
+            // 
+            this.evaluacion2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.evaluacion2ToolStripMenuItem1,
+            this.evaluacion3ToolStripMenuItem});
+            this.evaluacion2ToolStripMenuItem.Name = "evaluacion2ToolStripMenuItem";
+            resources.ApplyResources(this.evaluacion2ToolStripMenuItem, "evaluacion2ToolStripMenuItem");
             // 
             // btn_elegir
             // 
@@ -478,6 +490,16 @@
             this.cierraSesion.UseVisualStyleBackColor = true;
             this.cierraSesion.Click += new System.EventHandler(this.cierraSesion_Click);
             // 
+            // evaluacion2ToolStripMenuItem1
+            // 
+            this.evaluacion2ToolStripMenuItem1.Name = "evaluacion2ToolStripMenuItem1";
+            resources.ApplyResources(this.evaluacion2ToolStripMenuItem1, "evaluacion2ToolStripMenuItem1");
+            // 
+            // evaluacion3ToolStripMenuItem
+            // 
+            this.evaluacion3ToolStripMenuItem.Name = "evaluacion3ToolStripMenuItem";
+            resources.ApplyResources(this.evaluacion3ToolStripMenuItem, "evaluacion3ToolStripMenuItem");
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -613,6 +635,9 @@
         private System.Windows.Forms.CheckBox checkBox47;
         private System.Windows.Forms.CheckBox checkBox46;
         private System.Windows.Forms.Button cierraSesion;
+        private System.Windows.Forms.ToolStripMenuItem evaluacion2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem evaluacion2ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem evaluacion3ToolStripMenuItem;
     }
 }
 
