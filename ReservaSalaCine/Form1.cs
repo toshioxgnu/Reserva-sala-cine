@@ -137,5 +137,16 @@ namespace ReservaSalaCine
             }
         }
 
+        private void evaluacion2ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var evaluacion2 = new Form3();
+            evaluacion2.Show();
+        }
+
+        private void evaluacion3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var evaluacion3 = new Form4();
+            evaluacion3.Show();
+        }
     }
 }

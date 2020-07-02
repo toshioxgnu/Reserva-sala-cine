@@ -494,11 +494,13 @@
             // 
             this.evaluacion2ToolStripMenuItem1.Name = "evaluacion2ToolStripMenuItem1";
             resources.ApplyResources(this.evaluacion2ToolStripMenuItem1, "evaluacion2ToolStripMenuItem1");
+            this.evaluacion2ToolStripMenuItem1.Click += new System.EventHandler(this.evaluacion2ToolStripMenuItem1_Click);
             // 
             // evaluacion3ToolStripMenuItem
             // 
             this.evaluacion3ToolStripMenuItem.Name = "evaluacion3ToolStripMenuItem";
             resources.ApplyResources(this.evaluacion3ToolStripMenuItem, "evaluacion3ToolStripMenuItem");
+            this.evaluacion3ToolStripMenuItem.Click += new System.EventHandler(this.evaluacion3ToolStripMenuItem_Click);
             // 
             // Form1
             // 

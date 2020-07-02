@@ -121,12 +121,6 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="consultarSalaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
-  </data>
-  <data name="consultarSalaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Consultar Sala</value>
-  </data>
   <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 26</value>
   </data>
@@ -136,39 +130,15 @@
   <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="consultarSalaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
+  </data>
+  <data name="consultarSalaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Consultar Sala</value>
+  </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>172, 17</value>
   </metadata>
-  <data name="sala1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 22</value>
-  </data>
-  <data name="sala1ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sala 1</value>
-  </data>
-  <data name="sala2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 22</value>
-  </data>
-  <data name="sala2ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sala 2 </value>
-  </data>
-  <data name="sala3ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 22</value>
-  </data>
-  <data name="sala3ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sala 3 </value>
-  </data>
-  <data name="sala4ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 22</value>
-  </data>
-  <data name="sala4ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sala 4</value>
-  </data>
-  <data name="sala5ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 22</value>
-  </data>
-  <data name="sala5ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sala 5</value>
-  </data>
   <data name="salaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 20</value>
   </data>
@@ -221,6 +191,36 @@
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>55</value>
+  </data>
+  <data name="sala1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="sala1ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sala 1</value>
+  </data>
+  <data name="sala2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="sala2ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sala 2 </value>
+  </data>
+  <data name="sala3ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="sala3ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sala 3 </value>
+  </data>
+  <data name="sala4ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="sala4ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sala 4</value>
+  </data>
+  <data name="sala5ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="sala5ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sala 5</value>
   </data>
   <data name="btn_elegir.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
