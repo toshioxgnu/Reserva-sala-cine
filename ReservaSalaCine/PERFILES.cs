@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ReservaSalaCine
 {
-    public partial class Form4 : Form
+    public partial class PERFILES : Form
     {
-        public Form4()
+        public PERFILES()
         {
             InitializeComponent();
+        }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

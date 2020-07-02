@@ -145,7 +145,7 @@ namespace ReservaSalaCine
 
         private void evaluacion3ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var evaluacion3 = new Form4();
+            var evaluacion3 = new PERFILES();
             evaluacion3.Show();
         }
     }
