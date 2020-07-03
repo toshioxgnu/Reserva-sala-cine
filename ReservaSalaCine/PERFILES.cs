@@ -34,10 +34,11 @@ namespace ReservaSalaCine
                 string apepat = txtapat.Text.ToString();
                 string apemat = txtapmat.Text.ToString();
                 string clave = txtclave.Text.ToString();
-                string sqlintert = "insert into PERFILESJOSEGONZALEZ (RUT,NOMBRE,APPAT,APMAT,CLAVE) values ("+rut+","+nombre+ "," + apepat + "," + apemat + "," + clave + ",)";
+                string sqlintert = "insert into PERFILESJOSEGONZALEZ (RUT,NOMBRE,APPAT,APMAT,CLAVE) values ('"+rut+"','"+nombre+ "','" + apepat + "','" + apemat + "','" + clave + "')";
                 DataTable registro = new DataTable();
                 SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\basesLeones\\BDPROGjosegonzalez.mdf;Integrated Security=True;Connect Timeout=30");
                 SqlDataAdapter adapter = new SqlDataAdapter(sqlintert, conn);
+                adapter.Fill(registro);
                 Utils.llenaTabla(dataGridView1);
             }
             else
