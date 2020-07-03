@@ -180,6 +180,7 @@
             this.btn_buscar.TabIndex = 16;
             this.btn_buscar.Text = "BUSCAR POR APELLIDO";
             this.btn_buscar.UseVisualStyleBackColor = true;
+            this.btn_buscar.Click += new System.EventHandler(this.btn_buscar_Click);
             // 
             // btn_elimina
             // 
@@ -189,6 +190,7 @@
             this.btn_elimina.TabIndex = 17;
             this.btn_elimina.Text = "ELIMINAR";
             this.btn_elimina.UseVisualStyleBackColor = true;
+            this.btn_elimina.Click += new System.EventHandler(this.btn_elimina_Click);
             // 
             // btn_traspasa
             // 
@@ -198,6 +200,7 @@
             this.btn_traspasa.TabIndex = 18;
             this.btn_traspasa.Text = "TRASPASAR A TABLA";
             this.btn_traspasa.UseVisualStyleBackColor = true;
+            this.btn_traspasa.Click += new System.EventHandler(this.btn_traspasa_Click);
             // 
             // btn_buscarTraspaso
             // 
