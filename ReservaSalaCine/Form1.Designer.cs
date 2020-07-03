@@ -92,6 +92,7 @@
             this.checkBox48 = new System.Windows.Forms.CheckBox();
             this.checkBox47 = new System.Windows.Forms.CheckBox();
             this.checkBox46 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -471,11 +472,19 @@
             this.checkBox46.Name = "checkBox46";
             this.checkBox46.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pelicula);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_elegir);
@@ -604,6 +613,7 @@
         private System.Windows.Forms.CheckBox checkBox48;
         private System.Windows.Forms.CheckBox checkBox47;
         private System.Windows.Forms.CheckBox checkBox46;
+        private System.Windows.Forms.Button button1;
     }
 }
 

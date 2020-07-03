@@ -7,23 +7,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+
 
 namespace ReservaSalaCine
 {
     public partial class Form2 : Form
     {
-
+        //se crea lista para guardar datos de usuarios//
+        List<CLASEEVALUA2cristianmoralesa > LISTAEVALUA2 = new List<CLASEEVALUA2cristianmoralesa>();
+        CLASEEVALUA2cristianmoralesa Usuario = new CLASEEVALUA2cristianmoralesa();
+       
         public Form2()
         {
             InitializeComponent();
         }
-
+        //
         private void button1_Click(object sender, EventArgs e)
         {
             string rut = textBox2.Text;
             if (validaRut(rut))
             {
-                var formprincipal = new Form1();
+                Usuario.Rut = textBox2.Text;
+                Usuario.InicioSesion = DateTime.Now;
+                Usuario.Accion = button1.Text;
+                Usuario.AccionF = DateTime.Now;
+                LISTAEVALUA2.Add(Usuario);
+
+                datossesion.datossesionRut = Usuario.Rut;
+                datossesion.datossesionInicio = Usuario.InicioSesion;
+
+                var formprincipal = new Form1(LISTAEVALUA2);
                 var formLogin = new Form2();
                 formLogin.Hide();
                 formprincipal.Show();
@@ -32,6 +46,7 @@ namespace ReservaSalaCine
             {
                 MessageBox.Show("Rut Incorrecto");
             }
+
         }
 
 
@@ -81,6 +96,41 @@ namespace ReservaSalaCine
             {
                 return false;
             }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            var Evaluacion_2 = new Evaluacion_2();
+            Evaluacion_2.Show();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripButton1_Click_1(object sender, EventArgs e)
+        {
+
+            var Evaluacion_2 = new Evaluacion_2();
+            Evaluacion_2.Show();
+
+
         }
     }
 }
