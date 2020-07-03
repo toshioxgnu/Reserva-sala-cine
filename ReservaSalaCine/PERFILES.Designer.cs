@@ -41,6 +41,12 @@
             this.txtapmat = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btn_guardar = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btn_buscar = new System.Windows.Forms.Button();
+            this.btn_elimina = new System.Windows.Forms.Button();
+            this.btn_traspasa = new System.Windows.Forms.Button();
+            this.btn_buscarTraspaso = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -77,6 +83,7 @@
             // txtrut
             // 
             this.txtrut.Location = new System.Drawing.Point(151, 158);
+            this.txtrut.MaxLength = 12;
             this.txtrut.Name = "txtrut";
             this.txtrut.Size = new System.Drawing.Size(100, 20);
             this.txtrut.TabIndex = 5;
@@ -139,12 +146,67 @@
             // 
             // btn_guardar
             // 
-            this.btn_guardar.Location = new System.Drawing.Point(151, 364);
+            this.btn_guardar.Location = new System.Drawing.Point(31, 404);
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.Size = new System.Drawing.Size(163, 60);
             this.btn_guardar.TabIndex = 13;
             this.btn_guardar.Text = "GUARDAR";
             this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(34, 351);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(41, 13);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "CLAVE";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(151, 344);
+            this.textBox1.MaxLength = 13;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '*';
+            this.textBox1.Size = new System.Drawing.Size(136, 20);
+            this.textBox1.TabIndex = 15;
+            // 
+            // btn_buscar
+            // 
+            this.btn_buscar.Location = new System.Drawing.Point(265, 404);
+            this.btn_buscar.Name = "btn_buscar";
+            this.btn_buscar.Size = new System.Drawing.Size(154, 60);
+            this.btn_buscar.TabIndex = 16;
+            this.btn_buscar.Text = "BUSCAR POR APELLIDO";
+            this.btn_buscar.UseVisualStyleBackColor = true;
+            // 
+            // btn_elimina
+            // 
+            this.btn_elimina.Location = new System.Drawing.Point(31, 487);
+            this.btn_elimina.Name = "btn_elimina";
+            this.btn_elimina.Size = new System.Drawing.Size(100, 42);
+            this.btn_elimina.TabIndex = 17;
+            this.btn_elimina.Text = "ELIMINAR";
+            this.btn_elimina.UseVisualStyleBackColor = true;
+            // 
+            // btn_traspasa
+            // 
+            this.btn_traspasa.Location = new System.Drawing.Point(162, 487);
+            this.btn_traspasa.Name = "btn_traspasa";
+            this.btn_traspasa.Size = new System.Drawing.Size(125, 42);
+            this.btn_traspasa.TabIndex = 18;
+            this.btn_traspasa.Text = "TRASPASAR A TABLA";
+            this.btn_traspasa.UseVisualStyleBackColor = true;
+            // 
+            // btn_buscarTraspaso
+            // 
+            this.btn_buscarTraspaso.Location = new System.Drawing.Point(313, 487);
+            this.btn_buscarTraspaso.Name = "btn_buscarTraspaso";
+            this.btn_buscarTraspaso.Size = new System.Drawing.Size(106, 42);
+            this.btn_buscarTraspaso.TabIndex = 19;
+            this.btn_buscarTraspaso.Text = "BUSCAR PARA TRASPASO";
+            this.btn_buscarTraspaso.UseVisualStyleBackColor = true;
             // 
             // PERFILES
             // 
@@ -152,6 +214,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1131, 645);
+            this.Controls.Add(this.btn_buscarTraspaso);
+            this.Controls.Add(this.btn_traspasa);
+            this.Controls.Add(this.btn_elimina);
+            this.Controls.Add(this.btn_buscar);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btn_guardar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txtapmat);
@@ -188,5 +256,11 @@
         private System.Windows.Forms.TextBox txtapmat;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btn_guardar;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btn_buscar;
+        private System.Windows.Forms.Button btn_elimina;
+        private System.Windows.Forms.Button btn_traspasa;
+        private System.Windows.Forms.Button btn_buscarTraspaso;
     }
 }
