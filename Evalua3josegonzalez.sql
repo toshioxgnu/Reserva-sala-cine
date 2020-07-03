@@ -29,7 +29,7 @@ go
 /* Table: ACCIONESJOSEGONZALEZ                                  */
 /*==============================================================*/
 create table ACCIONESJOSEGONZALEZ (
-   NUM                  int                  not null,
+   NUM                  int                  not null identity(1,1),
    CLAVE                varchar(13)          null,
    INICIOSESION         date                 null,
    FINSESION            date                 null,
