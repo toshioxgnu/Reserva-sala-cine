@@ -42,7 +42,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btn_guardar = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtclave = new System.Windows.Forms.TextBox();
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_elimina = new System.Windows.Forms.Button();
             this.btn_traspasa = new System.Windows.Forms.Button();
@@ -163,14 +163,14 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "CLAVE";
             // 
-            // textBox1
+            // txtclave
             // 
-            this.textBox1.Location = new System.Drawing.Point(151, 344);
-            this.textBox1.MaxLength = 13;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PasswordChar = '*';
-            this.textBox1.Size = new System.Drawing.Size(136, 20);
-            this.textBox1.TabIndex = 15;
+            this.txtclave.Location = new System.Drawing.Point(151, 344);
+            this.txtclave.MaxLength = 13;
+            this.txtclave.Name = "txtclave";
+            this.txtclave.PasswordChar = '*';
+            this.txtclave.Size = new System.Drawing.Size(136, 20);
+            this.txtclave.TabIndex = 15;
             // 
             // btn_buscar
             // 
@@ -218,7 +218,7 @@
             this.Controls.Add(this.btn_traspasa);
             this.Controls.Add(this.btn_elimina);
             this.Controls.Add(this.btn_buscar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtclave);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btn_guardar);
             this.Controls.Add(this.dataGridView1);
@@ -257,7 +257,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btn_guardar;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtclave;
         private System.Windows.Forms.Button btn_buscar;
         private System.Windows.Forms.Button btn_elimina;
         private System.Windows.Forms.Button btn_traspasa;
